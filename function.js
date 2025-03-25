@@ -19,7 +19,7 @@ console.log(stringToUpperCase('qwerty'));
 //Напишіть функцію, яка приймає масив чисел і повертає новий масив з квадратами цих чисел.
 
 function squareArr (a) {
-  const newArr = a.flatMap(x => [x * 2]);
+  const newArr = a.map(x => x * x);
   return newArr;
 }
 
